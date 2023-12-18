@@ -2,7 +2,7 @@
 prometheus_version: 2.41.0
 
 prometheus_url: "https://github.com/prometheus/prometheus/releases/download/v{{ prometheus_version }}/prometheus-{{ prometheus_version }}.linux-amd64.tar.gz"
-prometheus_pkg_path: "/"
+prometheus_pkg_path: "/home/vagrant/"
 prometheus_pkg_path_with_pkg_name: "{{ prometheus_pkg_path }}/prometheus-{{ prometheus_version }}.linux-amd64"
 
 prometheus_config_dir: /etc/prometheus
